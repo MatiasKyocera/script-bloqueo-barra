@@ -1,7 +1,7 @@
 @echo off
-start "" "C:\Windows\System32\osk.exe"
+start "" "C:\Program Files\HotVirtualKeyboard\hvk.exe"
 timeout /t 2 /nobreak >nul
-start "" "C:\Ruta\del\Programa2.exe"
+start "" "C:\release\pc-release.exe"
 timeout /t 2 /nobreak >nul
 taskkill /f /im explorer.exe
 exit
